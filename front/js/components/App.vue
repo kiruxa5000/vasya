@@ -1,22 +1,17 @@
 <template>
     <div>
         <AppWrapper>
-        <h1>НННadssaa-s</h1>
-        <router-view></router-view>
+            <router-view></router-view>
         </AppWrapper>
     </div>
 </template>
 
 <script>
-    // import HelloWorld from './HelloWorld.vue'
     import AppWrapper from "./AppWrapper";
 
     export default {
         name: 'app',
         components: {AppWrapper},
-        // components: {
-        //     HelloWorld
-        // }
     }
 </script>
 
